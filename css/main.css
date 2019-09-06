@@ -347,6 +347,38 @@ textarea {
 
 @media only screen and (min-width: 1200px){
 
+  /*desktop*/
+
+  /*header*/
+
+  .divider{
+    border: none;
+  }
+
+  header .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header h1{
+    margin: 0;
+  }
+
+  header ul{
+    display: flex;
+  }
+
+  nav li{
+    padding-left: 1em;
+  }
+
+  /*main*/
+
+  main img{
+    max-height: 400px;
+  }
+
+
 
 
 
