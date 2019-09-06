@@ -105,11 +105,93 @@ textarea {
      font-family: 'Montserrat', sans-serif;
    }
 
+   .content-wrapper{
+     margin: 5%;
+     
+   }
+
    h1, h2, h3, nav{
      font-weight: 700;
      text-transform: uppercase;
     }
 
+    h1 span, nav, h2 span, #about h2, #specials li, footer span{
+      color: #77a466;
+    }
+
+    li{
+      list-style: none;
+    }
+
+    #specials, #reviews, #contact{
+      text-align: center;
+      border-top: .04em solid black;
+    }
+
+    ul{
+      padding: 0;
+    }
+
+    /*Header*/
+
+    header h1{
+      text-align: center;
+      
+    }
+
+    .divider{
+      border-bottom: solid .15em #77a466;
+    }
+
+    nav ul{
+      padding:0;
+    }
+
+    li a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: #77a466;
+    }
+
+    /*main*/
+    
+    main img{
+      max-height: 80px;
+      width: 100%;
+      border-top: #77a466 solid .2em;
+      border-bottom:#77a466 solid .2em;
+    }
+
+    /*about*/
+
+    #about{
+      text-align: center;
+    }
+
+    /*footer*/
+
+    footer h2{
+      text-align: center;
+      margin-top: 15%;
+      margin-bottom: 10%;
+    }
+
+    footer span{
+      font-family: 'Dancing Script', cursive;
+      font-weight: 700;
+      text-transform: lowercase;      
+    }
+
+
+    
+
+
+   
+    
+
+   
    
   
 
@@ -206,6 +288,62 @@ textarea {
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (min-width: 768px) {
+  /*tablet styles*/
+
+  /*general styles*/
+
+  p, li{
+    font-size: 1.2em;
+  }
+
+  #specials, #reviews, #contact{
+    border: none;
+    width: 33.33%;
+    border-bottom: .05em black solid;
+    border-top: .05em black solid;
+    text-align: left;
+    }
+
+  
+
+  /*main*/
+
+  main img{
+    max-height: 200px;
+  }
+
+  /*about*/
+
+  #about{
+    text-align: left;
+  }
+
+  /*reivews*/
+
+  #reviews{
+    border-right: .05em solid black;
+    border-left: .05em solid black;
+  }
+
+  /*bottom*/
+
+  .bottom{
+    display: flex;
+
+  }
+
+  /*footer*/
+
+  footer h2{
+    margin-top: 7.5%;
+    margin-bottom: 5%;
+  }
+
+  
+
 }
 
 @media print,
